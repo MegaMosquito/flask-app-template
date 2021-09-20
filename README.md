@@ -23,4 +23,4 @@ I built this because I was tired of getting warning messages like these from Fla
  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
 ```
 
-So this is Flask app properly deployed within a production WSGI server.
+So this is an example Flask app that is deployed within a production WSGI server.
