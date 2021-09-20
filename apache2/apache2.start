@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Running /apache2.start script..."
+mkdir -p /var/run/apache2
+source /apache2.env
+echo "Launching apache server..."
+apache2 -f /apache2.conf -k start >/dev/null 2>&1
+echo "Apache server started."
+tail -f /var/log/apache2/error.log
