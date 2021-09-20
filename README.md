@@ -5,9 +5,10 @@ An example Flask app hosted as a WSGI VirtualServer inside apache2
 ### Usage:
 
 1. Edit the `app/app.py` file to contain your Flask application.
-2. `make build`
-3. `make run`
-4. `make test`
+2. Edit the `app/app.wsgi` file to set your own `application.secret.key`
+3. `make build`
+4. `make run`
+5. `make test`
 
 ### Why
 
