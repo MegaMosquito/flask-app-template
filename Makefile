@@ -1,6 +1,6 @@
 
 DOCKERHUB_ID:=ibmosquito
-NAME:="apache2-template"
+NAME:="flask-app-template"
 VERSION:="1.0.0"
 PORT:=80
 
