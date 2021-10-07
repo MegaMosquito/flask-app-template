@@ -18,7 +18,6 @@ RUN pip3 install flask
 COPY ./apache2/* /
 
 # Copy over the Flask app
-RUN mkdir -p /app
 COPY ./app/* /app/
 
 # Create a WSGI VirtualServer for the Flask app (000 prefix to put it first)
