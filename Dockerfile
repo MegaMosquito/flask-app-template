@@ -3,7 +3,6 @@ FROM ubuntu:18.04
 # Install apache2
 RUN apt-get update && apt-get install -y \
   python3 \
-  python3-dev \
   python3-pip \
   apache2 \
   libapache2-mod-wsgi-py3 \
